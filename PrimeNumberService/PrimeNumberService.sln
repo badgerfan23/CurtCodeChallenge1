@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberService", "PrimeNumberService\PrimeNumberService.csproj", "{9F412CEE-BACE-4B37-89AC-2BA59304E5AF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PrimeNumberServiceIISHost", "http://localhost:7537", "{DF3AA159-2C8B-4A05-824C-E23A7F7C61DC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{9f412cee-bace-4b37-89ac-2ba59304e5af}|PrimeNumberService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7537"
+		Debug.AspNetCompiler.PhysicalPath = "PrimeNumberService\PrimeNumberServiceIISHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7537\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7537"
+		Release.AspNetCompiler.PhysicalPath = "PrimeNumberService\PrimeNumberServiceIISHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7537\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "PrimeNumberService\PrimeNumberServiceIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F412CEE-BACE-4B37-89AC-2BA59304E5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F412CEE-BACE-4B37-89AC-2BA59304E5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F412CEE-BACE-4B37-89AC-2BA59304E5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F412CEE-BACE-4B37-89AC-2BA59304E5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3AA159-2C8B-4A05-824C-E23A7F7C61DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3AA159-2C8B-4A05-824C-E23A7F7C61DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3AA159-2C8B-4A05-824C-E23A7F7C61DC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3AA159-2C8B-4A05-824C-E23A7F7C61DC}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

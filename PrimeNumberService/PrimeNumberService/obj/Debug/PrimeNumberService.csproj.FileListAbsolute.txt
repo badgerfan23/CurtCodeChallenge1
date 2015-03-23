@@ -1,0 +1,4 @@
+c:\users\yieng\documents\visual studio 2012\Projects\PrimeNumberService\PrimeNumberService\bin\PrimeNumberService.dll
+c:\users\yieng\documents\visual studio 2012\Projects\PrimeNumberService\PrimeNumberService\bin\PrimeNumberService.pdb
+c:\users\yieng\documents\visual studio 2012\Projects\PrimeNumberService\PrimeNumberService\obj\Debug\PrimeNumberService.dll
+c:\users\yieng\documents\visual studio 2012\Projects\PrimeNumberService\PrimeNumberService\obj\Debug\PrimeNumberService.pdb

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prime Number Generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" style="background-color: beige; padding :0;">
+  <div class="jumbotron" style="text-align:center;">
+    <h1>Prime Number Generator</h1>
+    <p>CURT: eCommerce Application Developer Code Challenge</p>
+	<span style="text-align:right;">Made By: Yieng-Kong Ly</span>
+  </div>  
+  <div class="row">  
+    <div class="col-sm-12">
+      <h3>Here's the first 1000 prime numbers:</h3>
+      <p id="answerPrimeNumber"></p>      
+    </div>  
+  </div>
+</div>
+</body>
+<script>
+$(document).ready(function(){   
+		//User here will have to use later on a different URL path depending on where it host the main web service
+		$.ajax("http://localhost/PrimeNumberService/PrimeService.svc/ShowThousandPrime", {
+      success: function(data) {
+         document.getElementById("answerPrimeNumber").innerHTML = data.ShowThousandPrimeResult ;
+      },
+      error: function() {
+         $('#notification-bar').text('An error occurred');
+      }
+   });
+});
+</script>
+</html>
