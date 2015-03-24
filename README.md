@@ -7,3 +7,4 @@ For consuming the web service, there's no parameter needed in the ajax call.
 3) The image file "ClientSideConsumingPrimeNumberWebService.JPG" contains a screenshot of the client side 
 consuming the .Net Web Service.
 
+4) I include two small test cases on the client side using Qunit to check the Ajax call.
