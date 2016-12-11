@@ -1,4 +1,4 @@
-# CurtCodeChallenge1
+# PrimeNumberWebService
 1) the html file PrimeNumberClients.html contains the code for the client side to consume to the .Net restful web service.
 For consuming the web service, there's no parameter needed in the ajax call.
 
